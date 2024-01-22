@@ -155,4 +155,34 @@ figure img {
 
 /* #region FOOTER */
 
+footer {
+  background-color: var(--footer);
+  padding: 30px 0;
+}
+
+.footer-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.legal h3 {
+  margin-bottom: 10px;
+}
+
+.legal span {
+  margin-right: 5px;
+  font-size: 0.8rem;
+}
+
+.social h4 {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  margin-right: 5px;
+}
+
 /* #endregion FOOTER */
