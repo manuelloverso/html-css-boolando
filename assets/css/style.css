@@ -195,38 +195,16 @@ footer {
   color: #ff0000;
 }
 
-figure:hover img {
+figure:hover .main-img {
   display: none;
 }
 
-#first:hover {
-  background-image: url(../img/1b.webp);
-  background-size: cover;
+.hover-img {
+  display: none;
 }
 
-#second:hover {
-  background-image: url(../img/2b.webp);
-  background-size: cover;
-}
-
-#third:hover {
-  background-image: url(../img/3b.webp);
-  background-size: cover;
-}
-
-#fourth:hover {
-  background-image: url(../img/4b.webp);
-  background-size: cover;
-}
-
-#fifth:hover {
-  background-image: url(../img/5b.webp);
-  background-size: cover;
-}
-
-#sixth:hover {
-  background-image: url(../img/6b.webp);
-  background-size: cover;
+figure:hover .hover-img {
+  display: inline-block;
 }
 
 /* #endregion HOVER */
